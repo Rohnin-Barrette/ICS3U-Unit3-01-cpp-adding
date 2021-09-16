@@ -11,18 +11,19 @@ int main() {
     int first_number;
     int second_number;
     int sum;
-    
+
     // input
     std::cout << "Enter the first number (integer): ";
     std::cin >> first_number;
     std::cout << "Enter the second number (integer): ";
     std::cin >> second_number;
-    
+
     // process
     sum = first_number + second_number;
-    
+
     // output
     std::cout << "" << std::endl;
-    std::cout << first_number << " + " << second_number << " = " << sum << std::endl;
+    std::cout << first_number << " + " <<
+    second_number << " = " << sum << std::endl;
     std::cout << "\nDone.";
 }
